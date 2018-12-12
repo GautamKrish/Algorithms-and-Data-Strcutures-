@@ -22,6 +22,7 @@
 		push(&head, 20);
 		push(&head, 3);
 		push(&head, 2);
+		printf("The list before sorting\n");
 		printList(head);
 		Sort(&head);
 		printf("\nThe List after sorting\n");
